@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
 
+
     <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
+
 
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
@@ -41,9 +43,14 @@
                 <field>Website</field>
             </layoutItems>
 
+
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Test1__c</field>
+            </layoutItems>
+          <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Test2__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -67,10 +74,12 @@
                 <behavior>Edit</behavior>
                 <field>Industry</field>
             </layoutItems>
+
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Number_of_Contacts__c</field>
             </layoutItems>
+
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
