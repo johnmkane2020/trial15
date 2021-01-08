@@ -40,11 +40,17 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+
                 <field>Test1__c</field>
+            </layoutItems>
+          <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Test2__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Test3__c</field>
+
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -63,10 +69,12 @@
                 <behavior>Edit</behavior>
                 <field>Industry</field>
             </layoutItems>
+
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Number_of_Contacts__c</field>
             </layoutItems>
+
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
