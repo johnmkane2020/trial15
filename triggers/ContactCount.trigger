@@ -1,4 +1,3 @@
-
 trigger ContactCount on Contact (after insert, after update, after delete, after undelete) {
 
     Map<Id, List<Contact>> mapAcctIdContactList = new Map<Id, List<Contact>>();
